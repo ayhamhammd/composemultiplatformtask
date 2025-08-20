@@ -85,21 +85,6 @@ composeApp/src/
 - JDK 17 or higher
 - Xcode (for iOS development)
 
-### Building and Running
-
-#### Android
-```bash
-./gradlew :composeApp:installDebug
-```
-
-#### iOS
-Open `iosApp/iosApp.xcodeproj` in Xcode and run the project.
-
-### Development Build
-```bash
-./gradlew build
-```
-
 ## API Integration
 
 The app uses [TheMealDB API](https://www.themealdb.com/api.php) endpoints:
@@ -141,17 +126,3 @@ Key dependencies are managed in `gradle/libs.versions.toml`:
 - Kotlinx Serialization
 - Koin for dependency injection
 - Coil for image loading
-
-## Contributing
-
-When adding new features:
-1. Follow the existing architecture layers
-2. Use the `UiStateWrapper` for consistent state handling
-3. Keep ViewModels co-located with their screens
-4. Add constants to appropriate utils objects
-5. Add appropriate error handling and loading states
-6. Update string resources for both languages
-
-## License
-
-This project is for demonstration purposes.# cmp-task
