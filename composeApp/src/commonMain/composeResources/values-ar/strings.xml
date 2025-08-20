@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab titles -->
+    <string name="tab_seafood">المأكولات البحرية</string>
+    <string name="tab_beef">لحوم البقر</string>
+    
+    <!-- Common -->
+    <string name="loading">جاري التحميل...</string>
+    <string name="error_occurred">حدث خطأ</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="back">رجوع</string>
+    
+    <!-- Meal List -->
+    <string name="meals_title">الوجبات</string>
+    <string name="no_meals_found">لم يتم العثور على وجبات</string>
+    
+    <!-- Meal Detail -->
+    <string name="meal_detail_title">تفاصيل الوجبة</string>
+    <string name="area">المنطقة</string>
+    <string name="category">الفئة</string>
+    <string name="instructions">التعليمات</string>
+    <string name="ingredients">المكونات</string>
+    <string name="no_instructions">لا توجد تعليمات متاحة</string>
+    <string name="no_ingredients">لا توجد مكونات متاحة</string>
+</resources> 
